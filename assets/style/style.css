@@ -632,9 +632,9 @@ MASTHEAD
   padding: 0 10px 0 10px;
 }
 
-.header-product1 #myCarousel img {
+/* .header-product1 #myCarousel img {
   display: none;
-}
+} */
 
 .header-product1 p {
   text-align: left;
@@ -652,30 +652,36 @@ MASTHEAD
   }
   .header-product1 {
     width: 100%;
+    padding: 20px 0 20px 0;
   }
   .span-product .product1-name {
     text-align: center;
     font-size: 28px;
     font-weight: 800;
+    padding-left: 0;
   }
-  .header-product1 .img-wrap {
-    display: none;
-  }
+  /* .header-product1 .img-wrap {
+    display: block;
+  } */
 
-  .header-product1 #myCarousel {
+  /* .header-product1 #myCarousel {
     display: block;
     /* width: 100%;
-    text-align: center; */
-  }
-
-  .header-product1 #myCarousel img {
-    height: 300px;
-  }
+    text-align: center;
+  */
 
   .header-product1 p {
-    padding: 20px 0 0 0;
+      padding: 20px 0 0 0;
+      margin-top: 40px;
+
   }
-}
+} 
+
+  /* .header-product1 #myCarousel img {
+    height: 300px;
+  } */
+
+
 
 /* Coffe Product */
 .coffe-product-span {
