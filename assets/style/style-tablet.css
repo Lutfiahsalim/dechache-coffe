@@ -1,0 +1,15 @@
+@media (min-width: 786px) {
+    #masthead {
+        padding-top: 30%;
+    }
+
+    .typeofcoffee {
+        margin: 10px 70px 10px 70px;
+        padding: 20px;
+    }
+    .typeofcoffee img {
+        max-height: 200px;
+        width: 200px;
+    }
+    
+}

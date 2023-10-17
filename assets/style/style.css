@@ -96,23 +96,6 @@ HEADER
     border-radius: 20px;
 }
 
-@media (max-width: 992px) {
-  #header img {
-    width: 80px;
-  }
-
-  #header.fixed-top{
-    background-color: #231f20;
-    padding: 10px 10px 10px 30px;
-  }
-
-  #header.fixed-top.scrolled {
-    top: 0;
-    margin: 0;
-    border-radius: 0;
-  }
-}
-
 /*-------------------------------
 NAVBAR
 -------------------------------*/
@@ -120,6 +103,7 @@ NAVBAR
     padding: 0;
   }
 .navbar ul {
+  display: none;
     margin: 0;
     padding: 0;
     display: flex;
@@ -266,6 +250,11 @@ ul li.drp-hidden{
   color: #2c4964;
   border: none;
 }
+
+.navbar-mobile.active ul {
+  display: block;
+}
+
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #0C3B2E;
 }
@@ -540,26 +529,6 @@ MASTHEAD
     color: #231f20;
   }
 
-  /* @media only screen and (min-width: 300px) and (max-width: 992px) {
-  .coffe-product-span {
-    width: 100%;
-  }
-
-  .product1 .coffe-product {
-    width: 100%;
-    height: 90px;
-  }
-
-  .coffe-product h5 {
-    text-align: center;
-  }
-
-  .coffe-product p {
-    padding: 0 10px;
-  }
-  
-} */
-
 /* ingredients-coffe */
 .product1-down {
   margin: 20px 190px 20px 190px;
@@ -594,6 +563,10 @@ MASTHEAD
   font-size: 15px !important;
 }
 
+.btn:focus {
+  box-shadow: none !important;
+}
+
 .card-body {
   font-family: 'Lora', sans-serif !important;
   font-size: 16px !important;
@@ -607,35 +580,6 @@ MASTHEAD
   margin: 0 10px;
   border-radius: 30px;
   padding: 15px 10px 8px 0;
-}
-
-.ingredients-coffe .list-ingredients {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-}
-
-.list-ingredients h3 {
-  width: 30%;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 600;
-}
-
-.list-ingredients i {
-  width: 10%;
-  text-align: left;
-}
-
-.list-ingredients p {
-  width: 60%;
-  font-family: "Lora", sans-serif;
-  font-size: 13px;
-  color: #231f20;
-  font-weight: 200;
-  text-align: left;
 }
 
 /* products2 */
