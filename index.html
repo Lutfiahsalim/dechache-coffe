@@ -25,6 +25,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Boostrap Navbar -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Bootstrap JavaScript dan jQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
@@ -42,7 +45,7 @@
     </a>
 
     <!-- Navigation Bar -->
-        <header id="header" class="fixed-top">
+           <header id="header" class="fixed-top">
             <div class="logo-span">
                 <img src="assets/img/Logo2.png">
             </div>
@@ -59,7 +62,6 @@
             </li>
             <li><a class="nav-link scrollto" href="#footer">Contact Us</a></li>
             </ul>
-            <!-- <i class="fa-solid fa-bars mobile-nav-toggle"></i> -->
             <i class="fa-solid fa-bars fa-xs mobile-nav-toggle" style="color: #ffffff;" ></i>
         </nav>
     </header>
@@ -138,7 +140,7 @@
         
         <div class="span-product">
             <div class="span-top">
-                <h2 class="product1-name">Kopi Rempah</h2>
+                <h2 id="product1" class="product1-name">Kopi Rempah</h2>
                 <p class="desc-top">Discover a world of flavor and excitement as you embark on a journey like no other, robust notes of freshly brewed coffee 
                 meets the exotic allure of spices from Ternate, North Maluku, also known as the Spices Island. Our coffee and spice blends 
                 are a celebration of age-old traditions. We’re dedicated to transforming your coffee experience into a symphony of taste and aroma.</p>
@@ -191,7 +193,8 @@
                       </div>
                       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
-                            Immerse yourself in the enchanting allure of Toraja, South Sulawesi, through a sip of robusta blend. Our Kopi Rempah infuses the finest Toraja Robusta beans with a harmonious blend of ginger, cinnamon, clove, and nutmeg.
+                            <img src="assets/img/coffee-beans_3219333.png" width="80px">
+                            <p>Immerse yourself in the enchanting allure of Toraja, South Sulawesi, through a sip of robusta blend. Our Kopi Rempah infuses the finest Toraja Robusta beans with a harmonious blend of ginger, cinnamon, clove, and nutmeg.</p>
                         </div>
                       </div>
                     </div>
@@ -205,7 +208,8 @@
                       </div>
                       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body">
-                            Breathe life into your mornings with the fiery kick of ginger, perfectly complementing the deep, roasted flavors of coffee. Ginger is a popular home remedy for nausea, digestion, and other health issues.
+                            <img src="assets/img/ginger_680969.png">
+                            <p>Breathe life into your mornings with the fiery kick of ginger, perfectly complementing the deep, roasted flavors of coffee. Ginger is a popular home remedy for nausea, digestion, and other health issues.</p>
                         </div>
                       </div>
                     </div>
@@ -219,53 +223,55 @@
                       </div>
                       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
-                            Savor the cozy warmth of our coffee blended with delicate hints of cinnamon, creating a harmonious cup that soothes and invigorates. Cinnamon is a spice derived from the bark of several tree species. It has antimicrobial, anti-inflammatory, and antioxidant effects.
+                            <img src="assets/img/cinnamon-roll.png" alt="">
+                            <p>Savor the cozy warmth of our coffee blended with delicate hints of cinnamon, creating a harmonious cup that soothes and invigorates. Cinnamon is a spice derived from the bark of several tree species. It has antimicrobial, anti-inflammatory, and antioxidant effects.</p>
                         </div>
                       </div>
                     </div>
-                  </div>
                   <div class="card">
                     <div class="card-header" id="headingFour">
                       <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             Nutmeg Delight
                         </button>
                       </h5>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                       <div class="card-body">
-                        Experience the rich, earthy notes of nutmeg intertwined with our coffee for a delightful, comforting embrace in every sip. Nutmeg is known to have health benefits, including its ability to relieve pain, soothe indigestion, strengthen cognitive function, detoxify the body, boost skin health, and many more.
+                        <img src="assets/img/acorn_6122223.png" alt="">
+                        <p>Experience the rich, earthy notes of nutmeg intertwined with our coffee for a delightful, comforting embrace in every sip. Nutmeg is known to have health benefits, including its ability to relieve pain, soothe indigestion, strengthen cognitive function, detoxify the body, boost skin health, and many more.</p>
                       </div>
+                    </div>
                     </div>
                     <div class="card">
                         <div class="card-header" id="headingFive">
                           <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 Clove euphoria
                             </button>
                           </h5>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                           <div class="card-body">
-                            Elevate your daily ritual with the aromatic delight of clove-infused coffee. Each sip is an invitation to explore a world of complexity, where the earthy warmth of clove harmonizes with the rich, deep notes of coffee. Clove has proven medicinal benefits along with an abundance of a few essential nutrients. Clove is known to be a good antioxidant, anti-inflammatory, anti-cancer properties, anti-diabetic, natural pain-killer, and many more.
+                            <img src="assets/img/clove.png" alt="">
+                            <p>Elevate your daily ritual with the aromatic delight of clove-infused coffee. Each sip is an invitation to explore a world of complexity, where the earthy warmth of clove harmonizes with the rich, deep notes of coffee. Clove has proven medicinal benefits along with an abundance of a few essential nutrients. Clove is known to be a good antioxidant, anti-inflammatory, anti-cancer properties, anti-diabetic, natural pain-killer, and many more.</p>
                           </div>
                         </div>
-                      </div>
                     </div>
                     <div class="card">
                         <div class="card-header" id="headingSix">
                           <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                 Palm Sugar Joy
                             </button>
                           </h5>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                           <div class="card-body">
-                            Experience the alluring sweetness of palm sugar, sourced from the heart of tropical palms. It's an authentic touch that elevates your coffee experience. Palm sugar has a lower glycemic index, which means it may have a milder impact on blood sugar levels. It contains antioxidants and minerals such as potassium, iron, zinc, and B vitamins.
+                            <img src="assets/img/date-palm.png" alt="">
+                            <p>Experience the alluring sweetness of palm sugar, sourced from the heart of tropical palms. It's an authentic touch that elevates your coffee experience. Palm sugar has a lower glycemic index, which means it may have a milder impact on blood sugar levels. It contains antioxidants and minerals such as potassium, iron, zinc, and B vitamins.</p>
                           </div>
                         </div>
-                      </div>
                     </div>
                 </div>
                 

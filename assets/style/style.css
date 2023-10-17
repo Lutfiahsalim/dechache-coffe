@@ -343,6 +343,7 @@ MASTHEAD
 
 .about-top hr{
     width: 50%;
+    margin-left: 25%;
 }
 
 .about-span .overview {
@@ -573,6 +574,14 @@ MASTHEAD
   font-size: 16px !important;
   color: #aa6c39 !important;
   padding: 3.25rem !important;
+  display: flex;
+  justify-content: space-between;
+}
+.card-body img {
+  width: 100px;
+}
+.card-body p {
+  padding-left: 30px;
 }
 
 .product1-down .ingredients-coffe {
