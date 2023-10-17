@@ -297,7 +297,7 @@ MASTHEAD
     padding: 15%;
     background-image: 
     linear-gradient(rgb(0, 0, 0, 70%), rgba(0, 0, 0, 80%)),
-    url(/assets/img/ing1.jpg);
+    url(assets/img/ing1.jpg);
     background-size: cover;
     z-index: -2;
 }
