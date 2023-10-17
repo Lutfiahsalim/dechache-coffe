@@ -31,18 +31,19 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+//navbar
 $(document).ready(function() {
   // Mobile nav toggle
   $(document).on('click', '.mobile-nav-toggle', function(e) {
-      $('#navbar').toggleClass('navbar-mobile');
+      $('#navbar').toggleClass('.navbar-mobile');
       $(this).toggleClass('fa-bars fa-xmark');
   });
 
-  // Mobile nav dropdowns activate
+  // Mobile nav dropdowns activate.
   $(document).on('click', '.navbar .dropdown > a', function(e) {
-      if ($('#navbar').hasClass('navbar-mobile')) {
+      if ($('#navbar').hasClass('.navbar-mobile')) {
           e.preventDefault();
-          $(this).next().toggleClass('dropdown-active');
+          $(this).next().toggleClass('.dropdown-active');
       }
   });
 
@@ -52,8 +53,8 @@ $(document).ready(function() {
           e.preventDefault();
 
           let navbar = $('#navbar');
-          if (navbar.hasClass('navbar-mobile')) {
-              navbar.removeClass('navbar-mobile');
+          if (navbar.hasClass('.navbar-mobile')) {
+              navbar.removeClass('.navbar-mobile');
               let navbarToggle = $('.mobile-nav-toggle');
               navbarToggle.toggleClass('fa-bars fa-xmark');
           }
@@ -62,3 +63,5 @@ $(document).ready(function() {
       }
   });
 });
+
+//-------------------------------------------------------------

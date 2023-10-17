@@ -1,13 +1,4 @@
 @media only screen and (min-width: 300px) and (max-width: 992px) {
-  .wa-btn {
-    background-color: transparent;
-    right: 170px;
-  }
-
-  .wa-btn span {
-    display: none;
-  }
-
   #header img {
     width: 80px;
   }
@@ -122,6 +113,7 @@
     margin: 0;
     padding-top: 30px ;
   }
+  
 
   .typeofcoffee {
     flex-direction: column;
