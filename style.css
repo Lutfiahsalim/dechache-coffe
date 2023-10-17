@@ -36,55 +36,6 @@ BACK TO TOP
 /*-------------------------------
 CHAT FLOATING
 -------------------------------*/
-.wa-btn {
-  position: fixed;
-  left: 8%;
-  bottom: 50px;
-  color: #fff;
-  background-color: #4fce5d;
-  padding: 10px 20px;
-  border-radius: 30px;
-  font-family: "Lora", sans-serif;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* text-decoration: none; */
-}
-
-/* .wa-btn span {
-  text-decoration: none;
-} */
-
-.wa-btn i {
-  font-size: 40px;
-  padding: 30px;
-  background-color: #4fce5d;
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 145px;
-}
-
-.wa-btn i span:hover {
-  color: #231f20;
-}
-
-@media only screen and (min-width: 300px) and (max-width: 992px) {
-  .wa-btn {
-    background-color: transparent;
-    right: 300px;
-  }
-
-  .wa-btn span {
-    display: none;
-  }
-
-}
 
 /*-------------------------------
 HEADER

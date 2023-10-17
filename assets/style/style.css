@@ -39,17 +39,23 @@ CHAT FLOATING
 .wa-btn {
   position: fixed;
   left: 100px;
-  bottom: 80px;
+  bottom: 60px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  z-index: 99;
   color: #fff;
-  background-color: #4fce5d;
-  padding: 10px 20px;
-  border-radius: 30px;
+}
+
+.wa-btn p {
   font-family: "Lora", sans-serif;
   font-size: 14px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 99;
+  background-color: #4fce5d;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 0;
 }
 
 .wa-btn i {
@@ -66,7 +72,7 @@ CHAT FLOATING
   right: 145px;
 }
 
-.wa-btn i span:hover {
+.wa-btn i :hover {
   color: #231f20;
 }
 
@@ -681,6 +687,7 @@ MASTHEAD
   font-family: "montserrat";
   font-weight: 500;
   margin: 0;
+  text-decoration: underline;
 }
 
 .share ul {

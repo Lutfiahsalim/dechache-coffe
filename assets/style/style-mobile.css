@@ -1,4 +1,8 @@
 @media only screen and (min-width: 300px) and (max-width: 992px) {
+  #myBtn {
+    font-size: 14px;
+  }
+
   #header img {
     width: 80px;
   }
@@ -37,6 +41,19 @@
     height: 500px;
     padding-top: 50%;
   }
+
+  .about-span .overview {
+    margin: 35px 30px 20px 30px;
+}
+
+.about-span .desc-overview {
+    padding: 30px;
+}
+
+.desc-overview .row .desc {
+    text-align: center;
+  }
+
   .aboutus-company .companypt-name {
     font-weight: 500;
     font-size: 13px;
@@ -113,7 +130,6 @@
     margin: 0;
     padding-top: 30px ;
   }
-  
 
   .typeofcoffee {
     flex-direction: column;
@@ -134,8 +150,8 @@
   }
 
   .span-top p {
-    padding: 14px 40px 20px 40px;
-    margin: 0 20px 0 20px;
+    padding: 14px 20px 20px 20px;
+    margin: 0;
 }
 
 .product1-down {
@@ -157,8 +173,12 @@
     font-size: 20px;
   }
 
-  .right-wrap p {
+  .right-wrap h3 {
     font-size: 20px;
+  }
+
+  .right-wrap p {
+    font-size: 18px;
     margin: 0;
   }
 
@@ -184,11 +204,18 @@
 
   .product-2 .desc-product2 {
     width: 100%;
-    text-align: left;
+    text-align: center;
+    padding-left: 0;
+    
   }
 
   .product-2 .top-desc-p2 {
-    padding-top: 20px;
+    padding: 20px 20px 0 20px;
+  }
+
+  .product-2 .bottom-desc-p2 {
+    margin-top: 10px;
+    padding: 0 20px;
   }
 
   .share {
@@ -196,14 +223,20 @@
     flex-direction: column;
     align-items: center;
     margin: 0;
+    padding-right: 0;
   }
 
   .share ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 0px 0;
     align-items: center;
+  }
+
+  ul li a {
+    font-size: 25px;
+
   }
 
   #footer {
