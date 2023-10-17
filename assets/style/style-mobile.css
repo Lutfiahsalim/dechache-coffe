@@ -1,0 +1,239 @@
+@media only screen and (min-width: 300px) and (max-width: 992px) {
+  .wa-btn {
+    background-color: transparent;
+    right: 220px;
+  }
+
+  .wa-btn span {
+    display: none;
+  }
+
+  #header img {
+    width: 80px;
+  }
+
+  #header.fixed-top{
+    background-color: #231f20;
+    padding: 10px 10px 10px 30px;
+  }
+
+  #header.fixed-top.scrolled {
+    top: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  ul li.drp-hidden {
+    display: inline-block;
+  }  
+
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  #masthead {
+    height: 500px;
+    padding-top: 50%;
+  }
+  .aboutus-company .companypt-name {
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  .aboutus-company .company-name {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 2em;
+  }
+
+  .tagline-company {
+    font-size: 10px;
+  }
+
+  .about-top h3 {
+    font-size: 20px;
+  }
+
+  .about-span .desc-overview {
+    padding: 30px;
+  }
+
+  .desc-overview .row {
+    display: block;
+  }
+
+  .row #myCarousel {
+    width: 100%;
+  }
+
+  .row #myCarousel img {
+    height: 300px;
+  }
+
+  .desc-overview .row .desc {
+    width: 100%;
+  }
+  .desc h2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .vismis {
+    margin: 0 20px 0 20px;
+    border-radius: 50px;
+    padding: 15px 30px 20px 30px;
+  }
+  .top-vismis {
+    display: none;
+  }
+  .vismis h2 {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 30px 0 10px 0;
+  }
+  .span-vismis {
+    display: block;
+    padding: 10px;
+  }
+  .span-vismis .vision {
+    width: 100%;
+  }
+  .span-vismis .mission {
+    width: 100%;
+  }
+
+  .span-product {
+    margin: 20px 40px 20px 40px;
+  }
+
+  .product1-down {
+    margin: 0;
+    padding-top: 30px ;
+  }
+
+  .typeofcoffee {
+    flex-direction: column;
+  }
+
+  .typeofcoffee img {
+    width: 60%;
+    padding-bottom: 20px;
+  }
+
+  .typeofcoffee .right-wrap {
+    padding-left: 0;
+    text-align: center;   
+  }
+
+  .right-wrap p {
+    font-size: 20px;
+  }
+
+  .span-top p {
+    padding: 14px 40px 20px 40px;
+    margin: 0 20px 0 20px;
+}
+
+.product1-down {
+    margin: 30px;
+    padding-top: 30px ;
+  }
+
+  .product1-down h2 strong {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .product1-down .ingredients-coffe {
+    background: none;
+  }
+
+  .ingredients-coffe .list-ingredients {
+    display: inline-block;
+  }
+
+  .list-ingredients h3 {
+    width: 100%;
+    font-size: 20px;
+    color: #aa6c39;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .list-ingredients i {
+    display: none;
+  }
+
+  .list-ingredients p {
+    width: 100%;
+    text-align: center;
+  }
+  .product1-down h2 strong {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .product1-down .ingredients-coffe {
+    background: none;
+  }
+
+  .ingredients-coffe .list-ingredients {
+    display: inline-block;
+  }
+
+  .list-ingredients h3 {
+    width: 100%;
+    font-size: 20px;
+    color: #aa6c39;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .list-ingredients i {
+    display: none;
+  }
+
+  .list-ingredients p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .product-2 {
+    display: block;
+  }
+
+  .product-2 .img-product2 {
+    width: 100%;
+  }
+
+  .product-2 .desc-product2 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .product-2 .top-desc-p2 {
+    padding-top: 20px;
+  }
+
+  #footer {
+    border-radius: 0;
+  }
+  #footer .container {
+    display: block;
+  }
+
+}

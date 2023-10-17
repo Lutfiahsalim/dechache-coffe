@@ -14,11 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Favicons -->
+    <!-- Font Icon -->
     <script src="https://kit.fontawesome.com/2cc3a425e0.js" crossorigin="anonymous"></script>
 
     <!-- CSS -->
     <link href="assets/style/style.css" rel="stylesheet">
+    <link href="assets/style/style-mobile.css" rel="stylesheet">
+    <link href="assets/style/style-tablet.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +42,7 @@
     </a>
 
     <!-- Navigation Bar -->
-    <header id="header" class="fixed-top">
+        <header id="header" class="fixed-top">
             <div class="logo-span">
                 <img src="assets/img/Logo2.png">
             </div>
@@ -57,7 +59,7 @@
             </li>
             <li><a class="nav-link scrollto" href="#footer">Contact Us</a></li>
             </ul>
-            <!-- <i class="fa-solid fa-bars mobile-nav-toggle"></i> -->
+            <i class="fa-solid fa-bars mobile-nav-toggle"></i>
             <i class="fa-solid fa-bars fa-xs mobile-nav-toggle" style="color: #ffffff;" ></i>
         </nav>
     </header>
@@ -135,57 +137,140 @@
         <p class="product-title">see our <strong>PRODUCTS</p>
         
         <div class="span-product">
-            <h2 class="product1-name">Kopi Rempah</h2>
-            <div id="product1" class="product1">
-                <div class="header-product1">
-                    <div class="img-wrap">
-                        <img src="assets/img/product11.jpg" alt="">
-                        <img src="assets/img/product13.jpg" alt="">
-                        <img src="assets/img/product1.jpg" alt="">
-                    </div>
-                    <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="/assets/img/product1.jpg">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="/assets/img/product11.jpg">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="/assets/img/product13.jpg">
-                            </div>
+            <div class="span-top">
+                <h2 class="product1-name">Kopi Rempah</h2>
+                <p class="desc-top">Discover a world of flavor and excitement as you embark on a journey like no other, robust notes of freshly brewed coffee 
+                meets the exotic allure of spices from Ternate, North Maluku, also known as the Spices Island. Our coffee and spice blends 
+                are a celebration of age-old traditions. We’re dedicated to transforming your coffee experience into a symphony of taste and aroma.</p>
+            </div>
+                <div class="wrapper-type">
+                    <div class="typeofcoffee">
+                        <img src="assets/img/low-sugar.jpg" alt="">
+                        <div class="right-wrap">
+                            <h3>Low Sugar</h3>
+                            <p>coffee beans, ginger, cinnamon, clove, nutmeg, sugar</p>
                         </div>
-                    </div> -->
-                    <!-- <h2 class="product1-name">Kopi Rempah</h2> -->
-                    <p>Discover a world of flavor and excitement as you embark on a journey like no other, robust notes of freshly brewed coffee meets the exotic allure of spices from Ternate, North Maluku, also known as the Spices Island. Our coffee and spice blends are a celebration of age-old traditions. We’re dedicated to transforming your coffee experience into a symphony of taste and aroma.</p>
-                </div> 
-                
-                <div class="coffe-product-span">
-                    <div class="card coffe-product">
-                        <h5>Low Sugar</h5>
-                        <p class="card-text">coffee beans, ginger, cinnamon, clove, nutmeg, sugar</p>
                     </div>
-    
-                    <div class="card coffe-product">
-                        <h5>No Sugar</h5>
-                        <p class="card-text">coffee beans, ginger, cinnamon, clove, nutmeg</p>
+
+                    <div class="typeofcoffee">
+                        <img src="assets/img/no-sugar.jpg" alt="">
+                        <div class="right-wrap">
+                            <h3>No Sugar</h3>
+                            <p>coffee beans, ginger, cinnamon, clove, nutmeg</p>
+                        </div>
                     </div>
-    
-                    <div class="card coffe-product">
-                        <h5>Palm Sugar</h5>
-                        <p class="card-text">coffee beans, ginger, cinnamon, clove, palm sugar</p>
+
+                    <div class="typeofcoffee">
+                        <img src="assets/img/palm-sugar.jpg" alt="">
+                        <div class="right-wrap">
+                            <h3>Palm Sugar</h3>
+                            <p>coffee beans, ginger, cinnamon, clove, palm sugar</p>
+                        </div>
                     </div>
-    
-                    <div class="card coffe-product">
-                        <h5>Creamer</h5>
-                        <p class="card-text">coffee beans, ginger, cinnamon, clove, creamer, sugar</p>
-                    </div>
+
+                    <div class="typeofcoffee">
+                        <img src="assets/img/creamer.jpg" alt="">
+                        <div class="right-wrap">
+                            <h3>Creamer</h3>
+                            <p>coffee beans, ginger, cinnamon, clove, creamer, sugar</p>
+                        </div>
+                    </div>                
                 </div>
             </div>
 
             <div class="product1-down">
                 <h2><Strong>Ingredients</Strong> of Kopi Rempah</h2>
-                <div class="ingredients-coffe">
+                <div id="accordion">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Robust Mornings
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Immerse yourself in the enchanting allure of Toraja, South Sulawesi, through a sip of robusta blend. Our Kopi Rempah infuses the finest Toraja Robusta beans with a harmonious blend of ginger, cinnamon, clove, and nutmeg.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Ginger Bliss
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Breathe life into your mornings with the fiery kick of ginger, perfectly complementing the deep, roasted flavors of coffee. Ginger is a popular home remedy for nausea, digestion, and other health issues.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Cinnamon infusion
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Savor the cozy warmth of our coffee blended with delicate hints of cinnamon, creating a harmonious cup that soothes and invigorates. Cinnamon is a spice derived from the bark of several tree species. It has antimicrobial, anti-inflammatory, and antioxidant effects.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Nutmeg Delight
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        Experience the rich, earthy notes of nutmeg intertwined with our coffee for a delightful, comforting embrace in every sip. Nutmeg is known to have health benefits, including its ability to relieve pain, soothe indigestion, strengthen cognitive function, detoxify the body, boost skin health, and many more.
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                          <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Clove euphoria
+                            </button>
+                          </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                          <div class="card-body">
+                            Elevate your daily ritual with the aromatic delight of clove-infused coffee. Each sip is an invitation to explore a world of complexity, where the earthy warmth of clove harmonizes with the rich, deep notes of coffee. Clove has proven medicinal benefits along with an abundance of a few essential nutrients. Clove is known to be a good antioxidant, anti-inflammatory, anti-cancer properties, anti-diabetic, natural pain-killer, and many more.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingSix">
+                          <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Palm Sugar Joy
+                            </button>
+                          </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                          <div class="card-body">
+                            Experience the alluring sweetness of palm sugar, sourced from the heart of tropical palms. It's an authentic touch that elevates your coffee experience. Palm sugar has a lower glycemic index, which means it may have a milder impact on blood sugar levels. It contains antioxidants and minerals such as potassium, iron, zinc, and B vitamins.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+
+                <!-- <div class="ingredients-coffe">
                     <div class="list-ingredients">
                         <h3>Robust Mornings</h3>
                         <i class="fa-solid fa-sun fa-xl" style="color: #0b0908;"></i>
@@ -219,16 +304,16 @@
                     <div class="list-ingredients">
                         <h3>Palm Sugar Joy</h3>
                         <i class="fa-solid fa-cubes-stacked fa-xl" style="color: #0b0908;"></i>
-                        <p>Experience the alluring sweetness of palm sugar, sourced from the heart of tropical palms. It's an authentic touch that elevates your coffee experience. Palm sugar has a lower glycemic index, which means it may have a milder impact on blood sugar levels. It contains antioxidants and minerals such as potassium, iron, zinc, and B vitamins.</p>
+                        <p>Clove euphoria</p>
                     </div>
 
                     
-                </div>
+                </div> -->
             </div>
 
             <div id="product2" class="product-2">
                 <div class="img-product2">
-                    <img src="assets/img/product2.jpg" alt="">
+                    <img src="assets/img/aer-guraka.jpg" alt="">
                 </div>
 
                 <div class="desc-product2">
