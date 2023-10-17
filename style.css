@@ -3,6 +3,7 @@ body {
     margin: auto;
     /* background-color: #ffff; */
     font-family: 'Lora', sans-serif;
+    z-index: 99;
 }
 
 a {
@@ -36,6 +37,40 @@ BACK TO TOP
 /*-------------------------------
 CHAT FLOATING
 -------------------------------*/
+/*-------------------------------
+CHAT FLOATING
+-------------------------------*/
+.wa-btn {
+  position: fixed;
+  left: 100px;
+  bottom: 80px;
+  color: #fff;
+  background-color: #4fce5d;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: "Lora", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+.wa-btn i {
+  font-size: 40px;
+  padding: 30px;
+  background-color: #4fce5d;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 145px;
+}
+.wa-btn i span:hover {
+  color: #231f20;
+}
 
 /*-------------------------------
 HEADER

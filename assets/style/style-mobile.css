@@ -3,6 +3,10 @@
     font-size: 14px;
   }
 
+  .wa-btn i {
+    font-size: 25px;
+  }
+
   #header img {
     width: 80px;
   }

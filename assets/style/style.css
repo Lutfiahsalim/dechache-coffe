@@ -47,7 +47,7 @@ CHAT FLOATING
   color: #fff;
 }
 
-.wa-btn p {
+.wa-btn span {
   font-family: "Lora", sans-serif;
   font-size: 14px;
   display: flex;
@@ -63,8 +63,8 @@ CHAT FLOATING
   padding: 30px;
   background-color: #4fce5d;
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +72,7 @@ CHAT FLOATING
   right: 145px;
 }
 
-.wa-btn i :hover {
+.wa-btn i span:hover {
   color: #231f20;
 }
 
@@ -300,19 +300,23 @@ MASTHEAD
 #masthead {
     position: relative;
     text-align: center;
-    padding: 15%;
     background-image: 
     linear-gradient(rgb(0, 0, 0, 70%), rgba(0, 0, 0, 80%)),
     url(../img/ing1.jpg);
     background-size: cover;
     z-index: -1;
+    height: 600px;
+    padding: 20% 10% 20% 10%;
+}
+
+.aboutus-fill {
+  text-align: center;
 }
 .aboutus-company .companypt-name {
     font-family: "montserrat", sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: #aa6c39; 
-    top: 50px
 }
 .aboutus-company .company-name {
     font-family: 'Montserrat', sans-serif;
