@@ -173,62 +173,6 @@
   .card-body p {
     padding-left: 0px;
   }
-  
-
-  /* .product1-down .ingredients-coffe {
-    background: none;
-  }
-
-  .ingredients-coffe .list-ingredients {
-    display: inline-block;
-  }
-
-  .list-ingredients h3 {
-    width: 100%;
-    font-size: 20px;
-    color: #aa6c39;
-    font-weight: 600;
-    text-align: center;
-  }
-
-  .list-ingredients i {
-    display: none;
-  }
-
-  .list-ingredients p {
-    width: 100%;
-    text-align: center;
-  }
-  .product1-down h2 strong {
-    font-size: 18px;
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  .product1-down .ingredients-coffe {
-    background: none;
-  }
-
-  .ingredients-coffe .list-ingredients {
-    display: inline-block;
-  }
-
-  .list-ingredients h3 {
-    width: 100%;
-    font-size: 20px;
-    color: #aa6c39;
-    font-weight: 600;
-    text-align: center;
-  }
-
-  .list-ingredients i {
-    display: none;
-  }
-
-  .list-ingredients p {
-    width: 100%;
-    text-align: center;
-  } */
 
   .product-2 {
     display: block;
@@ -245,6 +189,21 @@
 
   .product-2 .top-desc-p2 {
     padding-top: 20px;
+  }
+
+  .share {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .share ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    align-items: center;
   }
 
   #footer {
