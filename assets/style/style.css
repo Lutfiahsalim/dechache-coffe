@@ -492,6 +492,7 @@ MASTHEAD
 .right-wrap h3 {
   color: #fff;
   font-size: 30px;
+  font-family: "montserrat", sans-serif;
 }
 
 .right-wrap p {
@@ -579,6 +580,7 @@ MASTHEAD
 }
 .card-body img {
   width: 100px;
+  margin: 0 0 20px 60px;
 }
 .card-body p {
   padding-left: 30px;

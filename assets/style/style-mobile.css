@@ -1,7 +1,7 @@
 @media only screen and (min-width: 300px) and (max-width: 992px) {
   .wa-btn {
     background-color: transparent;
-    right: 220px;
+    right: 170px;
   }
 
   .wa-btn span {
@@ -157,7 +157,33 @@
     font-style: normal;
   }
 
-  .product1-down .ingredients-coffe {
+  .typeofcoffee {
+    padding: 30px 20px;
+  }
+
+  .right-wrap {
+    font-size: 20px;
+  }
+
+  .right-wrap p {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .card-body {
+    flex-direction: column;
+  }
+
+  .card-body img {
+    width: 100px;
+    text-align: center;
+  }
+  .card-body p {
+    padding-left: 0px;
+  }
+  
+
+  /* .product1-down .ingredients-coffe {
     background: none;
   }
 
@@ -210,7 +236,7 @@
   .list-ingredients p {
     width: 100%;
     text-align: center;
-  }
+  } */
 
   .product-2 {
     display: block;
