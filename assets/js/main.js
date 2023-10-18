@@ -35,15 +35,23 @@ function topFunction() {
 $(document).ready(function() {
   // Mobile nav toggle
   $(document).on('click', '.mobile-nav-toggle', function(e) {
-      $('#navbar').toggleClass('.navbar-mobile');
-      $(this).toggleClass('fa-bars fa-xmark');
-  });
+    console.log("Hamburger clicked!"); 
+    var navbar = $('#navbar');
+    navbar.toggleClass('navbar-mobile');
+    if (navbar.hasClass('navbar-mobile')) {
+        navbar.find('ul').show();
+    } else {
+        navbar.find('ul').hide();
+    }
+    $(this).toggleClass('fa-bars fa-xmark');
+});
+
 
   // Mobile nav dropdowns activate.
   $(document).on('click', '.navbar .dropdown > a', function(e) {
-      if ($('#navbar').hasClass('.navbar-mobile')) {
+      if ($('#navbar').hasClass('navbar-mobile')) {
           e.preventDefault();
-          $(this).next().toggleClass('.dropdown-active');
+          $(this).next().toggleClass('dropdown-active');
       }
   });
 
@@ -53,9 +61,9 @@ $(document).ready(function() {
           e.preventDefault();
 
           let navbar = $('#navbar');
-          if (navbar.hasClass('.navbar-mobile')) {
-              navbar.removeClass('.navbar-mobile');
-              let navbarToggle = $('.mobile-nav-toggle');
+          if (navbar.hasClass('navbar-mobile')) {
+              navbar.removeClass('navbar-mobile');
+              let navbarToggle = $('mobile-nav-toggle');
               navbarToggle.toggleClass('fa-bars fa-xmark');
           }
           // Assuming scrollto is a function defined elsewhere in your code
