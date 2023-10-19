@@ -2,9 +2,25 @@
 nav {
     display: flex !important;
     background-color: #231f20;
-    justify-content: space-around;
+    justify-content: space-between;
+    background: none;
     height: 70px;
+    padding: 0 40px;
     align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+
+nav.scrolled {
+    background-color: #231f20 !important;
+    transition: background-color 200ms linear;
+    top: 10px;
+    border-radius: 20px;
+    width: 98%;
+    margin-left: 15px;
+    position: fixed;
+    z-index: 9999;
+    height: 80px;
 }
 
 nav ul {
@@ -103,7 +119,21 @@ nav ul li a:hover {
         justify-content: space-between;
         padding: 0 20px;
         background-color: #231f20;
+        position: fixed;
+        width: 100vw;
+        z-index: 9999
     }
+
+    nav.scrolled {
+        top: 0;
+        border-radius: 0;
+        width: 100%;
+        margin-left: 0;
+        position: fixed;
+        z-index: 9999;
+        height: 70px;
+    }
+
     nav ul {
         position: absolute;
         width: 200px;
@@ -135,5 +165,9 @@ nav ul li a:hover {
     nav ul.slide {
         opacity: 1;
         transform: translateX(0);
+    }
+
+    nav ul.active {
+        display: block;
     }
 }
