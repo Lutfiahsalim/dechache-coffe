@@ -18,6 +18,7 @@
     <script src="https://kit.fontawesome.com/2cc3a425e0.js" crossorigin="anonymous"></script>
 
     <!-- CSS -->
+    <link href="assets/style/navbar.css" rel="stylesheet">
     <link href="assets/style/style.css" rel="stylesheet">
     <link href="assets/style/style-mobile.css" rel="stylesheet">
     <link href="assets/style/style-tablet.css" rel="stylesheet">
@@ -48,28 +49,25 @@
     </a>
 
     <!-- Navigation Bar -->
-           <header id="header" class="fixed-top">
-            <div class="logo-span">
-                <img src="assets/img/Logo2.png">
-            </div>
-        <nav id="navbar" class="navbar order-last order-lg-0">
-            <ul>
-            <li><a class="nav-link scrollto" href=#masthead>Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-            <li class="dropdown active"><a href="#products"><span>Products</span> <i class="bi bi-chevron-down panah"></i></a>
-                <ul>
-                <li class="drp-hidden"><a href="#products">Products</a></li>
-                <li><a href="#product1">Kopi Rempah</a></li>
-                <li><a href="#product2">Aer Guraka</a></li>
-                </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="#footer">Contact Us</a></li>
-            </ul>
-            <i class="fa-solid fa-bars fa-xs mobile-nav-toggle" style="color: #ffffff;" ></i>
-        </nav>
-    </header>
-    <!-- End Header -->
+    <nav>
+      <div class="logo">
+          <img src="assets/img/Logo2.png" width="100px"alt="">
+      </div>
 
+      <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#masthead">About us</a></li>
+          <li><a href="#products">Product</a></li>
+          <li><a href="#footer">Contact</a></li>
+      </ul>
+
+      <div class="menu-toggle">
+          <input type="checkbox"/>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </nav>
         <!-- Masthead -->
         <div id="masthead" class="masthead">
             <div class="aboutus-fill">
@@ -343,5 +341,6 @@
 
     <!-- JavaScript -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
